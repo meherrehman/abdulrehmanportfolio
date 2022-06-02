@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    background-color: #222222;
+    color: white;
+}
+
+.navItem {
+    color: gainsboro !important;
+    text-decoration: none;
+    margin: 0px 50px;
+    transition-duration: 0.2s;
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.3em;
+}
+
+.navItem:hover {
+    color: #F66B4A !important;
+    transition-duration: 0.2s;
+}
+
+.mainAreaContent {
+    font-family: 'Secular One', sans-serif;
+    font-size: 2em;
+}
+
+.mainAreaName {
+    color: #F66B4A;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.mainAreaRow {
+    margin-top: 10%;
+}
+
+.mainAreaImg {
+    width: 400px;
+}
+
+.mainAreaImgSection {
+    position: relative;
+}
+
+.mainAreaImgStyle1 {
+    position: absolute;
+    top: 30px;
+    background-color: #F66B4A;
+    display: inline-block;
+    left: 80px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.mainAreaBtn {
+    border: none;
+    outline: none;
+    background-color: #F66B4A;
+    color: #222222 !important;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.ServiceHeader {
+    font-family: 'Secular One', sans-serif;
+    font-size: 3em;
+    border-bottom: 5px solid #F66B4A;
+    display: inline-block;
+}
+
+.ServiceItemBox {
+    border: 5px solid white;
+    width: 300px;
+    height: 350px;
+    background-color: #F66B4A;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.ServiceItemBoxHeader {
+    font-size: 1.4em;
+    font-family: 'Secular One', sans-serif;
+    color: #222222;
+}
+
+.serviceItems {
+    color: #222222;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.AboutHeader {
+    font-family: 'Secular One', sans-serif;
+    font-size: 3em;
+    border-bottom: 5px solid #F66B4A;
+    display: inline-block;
+}
+
+.AboutContentHeader {
+    font-size: 2em;
+    font-family: 'Secular One', sans-serif;
+}
+
+.aboutSideImg {
+    width: 200px;
+}
+
+.AboutContentDesc {
+    font-family: 'Secular One', sans-serif;
+}
+
+.aboutInfoHeader {
+    color: #F66B4A;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.aboutInfoDesc {
+    font-family: 'Secular One', sans-serif;
+}
+
+.projectHeader {
+    font-family: 'Secular One', sans-serif;
+    font-size: 3em;
+    border-bottom: 5px solid #F66B4A;
+    display: inline-block;
+}
+
+.projectVideo {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.projectBox {
+    border: 2px solid #F66B4A;
+    padding: 10px;
+    background-color: #0a0a0a;
+    border-radius: 10px;
+}
+
+.projectBtn {
+    display: inline-block;
+    width: 180px;
+    margin: 10px auto;
+    background-color: #F66B4A;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.projectDescHeader {
+    color: #F66B4A;
+    font-family: 'Secular One', sans-serif;
+}
+
+.projectDesc {
+    color: #F66B4A;
+    font-family: 'Secular One', sans-serif;
+    text-transform: capitalize;
+}
+
+
+@media (max-width: 992px) {
+
+    .mainAreaContent {
+        font-family: 'Secular One', sans-serif;
+        font-size: 1.5em;
+    }
+
+    .mainAreaImg {
+        width: 329px;
+    }
+
+    .mainAreaImgStyle1 {
+        top: 62px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .ServiceItemBox {
+        margin: 0px 2px;
+        height: 360px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .mainAreaContent {
+        font-family: 'Secular One', sans-serif;
+        font-size: 1.1em;
+    }
+
+    .mainAreaBtn {
+        font-size: 1em;
+    }
+
+    .mainAreaImg {
+        width: 240px;
+    }
+
+    .mainAreaImgStyle1 {
+        top: 62px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .aboutSideImg {
+        width: 120px;
+    }
+
+    .ServiceItemBox {
+        margin: 5px 0px;
+    }
+
+    .servicesItemParent {
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .navItem {
+        margin: 0px 10px;
+    }
+
+    .projectDesc {
+        font-size: 0.7em;
+    }
+}
