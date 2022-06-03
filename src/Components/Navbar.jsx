@@ -9,7 +9,7 @@ const Navbar = () => {
                     <Link to="/" className='navItem'>Home</Link>
                     <Link to="/Projects" className='navItem'>Projects</Link>
                     {/* <Link to="/" className='navItem'>Contact</Link> */}
-                    <a href="https://api.WhatsApp.com/send?phone=03487330058" className='navItem'>Contact</a>
+                    <a href="https://api.WhatsApp.com/send?phone=03076008905" className='navItem'>Contact</a>
                 </div>
             </div>
         </div>
