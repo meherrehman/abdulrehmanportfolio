@@ -25,7 +25,7 @@ const About = () => {
                             </div>
                             <div className="col-sm-6 col-12">
                                 <p className='aboutInfoHeader'>LinkdeIn</p>
-                                <p className='aboutInfoDesc'>mianrehman7495@gmail.com</p>
+                                <p className='aboutInfoDesc'>https://www.linkedin.com/in/abdul-rehman-437019220/</p>
                             </div>
                         </div>
                     </div>
